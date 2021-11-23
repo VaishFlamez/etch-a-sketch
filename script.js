@@ -1,3 +1,8 @@
+
+// TO CHANGE
+// ADD RGB - RAINBOW COLOR FEATURE
+// ADD SLIDER AND FIX THE PIXEL THING
+
 const gridContainer = document.getElementById("gridContainer");
 let rows = document.getElementsByClassName("gridRow");
 let cells = document.getElementsByClassName("gridCell");
