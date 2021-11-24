@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Etch-A-Sketch </title>
 
 </head>
 
@@ -17,8 +17,11 @@
 
     <main>
         <div>
+            <input id="colorPicker" type="color" value="#333333">
+            <input type="range" min="1" max="26" value="10" id="gridSlider">
             <button id="colorModeBtn"> Color Mode</button>
             <button id="eraserModeBtn"> Eraser Mode</button>
+            <button id="rainbowModeBtn"> Rainbow Mode</button>
             <button id="clearBtn"> Clear </button>
         </div>
         <div id="gridContainer"></div>
